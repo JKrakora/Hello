@@ -1,5 +1,5 @@
-# meta-name: My Default
-# meta-description: A template that shows the order all members should keep
+# meta-name: Organized Template
+# meta-description: A template with comments organizing where every piece of code should go.
 # meta-default: true
 # meta-space-indent: 4
 #@tool, @icon, @static_unload
@@ -7,7 +7,8 @@
 #extends
 
 # === Doc Comments ===
-
+# Written by James Krakora
+# Function: 
 # ====================
 
 # === Variables ===
@@ -27,8 +28,7 @@
 #func _ready() -> void:
 #func _process(delta: float) -> void:
 #func _physics_process(delta: float) -> void:
-# --- Remaining Funcs ---
-# - (public) - 
-# - (private) -
+# --- Public Funcs ---
+# --- Private Funcs ---
 # --- Subclasses ---
 # End of Script, 'cept for the trailing line :(
